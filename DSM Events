@@ -1,0 +1,64 @@
+<!-- BOOKING FORM SECTION -->
+
+<section class="section" id="booking">
+  <h2>Book Your Event</h2>
+  <form action="https://formsubmit.co/dsmevents@gmail.com" method="POST" class="booking-form">
+
+```
+<input type="text" name="name" placeholder="DSM Events" required>
+
+<input type="tel" name="phone" placeholder="6301639843,9346212708" required>
+
+<input type="email" name="email" placeholder="dsmeventstekkali@gmail.coms">
+
+<select name="DSM Events" required>
+  <option value="">Select Event Type<sounding anddecration>
+  <option>Wedding</option>
+  <option>Birthday</option>
+  <option>Engagement</option>
+  <option>Housewarming</option>
+  <option>Corporate Event</option>
+</select>
+
+<input type="date" name="date" required>
+
+<textarea name="message" placeholder="Enter event details..." rows="4"></textarea>
+
+<button type="submit">Submit Booking</button>
+```
+
+  </form>
+</section>
+
+<style>
+.booking-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.booking-form button {
+  padding: 12px;
+  background: #ff7e5f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.booking-form button:hover {
+  background: #e96b50;
+}
+</style>
